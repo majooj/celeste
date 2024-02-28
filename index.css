@@ -1,0 +1,22 @@
+.escrita{
+    text-align: center;
+    color: #007fff
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 100px;
+  }
+  
+  .box {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #333;
+  }
